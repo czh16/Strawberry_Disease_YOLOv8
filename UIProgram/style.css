@@ -1,0 +1,15 @@
+
+QGroupBox {
+    border: 2px solid gray;
+    }
+
+QPushButton#PicBtn,#FilesBtn,#VideoBtn,#CapBtn,#SaveBtn,#ExitBtn{color:black}
+QPushButton#PicBtn,#FilesBtn,#VideoBtn,#CapBtn,#SaveBtn,#ExitBtn{background-color:rgb(153,102,153)}
+QPushButton#PicBtn:hover,#FilesBtn:hover,#VideoBtn:hover,#CapBtn:hover,#SaveBtn:hover,#ExitBtn:hover{color:red}
+QPushButton#PicBtn,#FilesBtn,#VideoBtn,#CapBtn,#SaveBtn,#ExitBtn{border-radius:6px}
+QPushButton#PicBtn:pressed,#FilesBtn:pressed,#VideoBtn:pressed,#CapBtn:pressed,#SaveBtn:pressed,#ExitBtn:pressed{background-color:rgb(180,180,180);border: None;}
+
+
+#MainWindow{border-image:url(UIProgram/ui_imgs/bg11.png)}
+QLabel#label_show{border-image:url(UIProgram/ui_imgs/11.png);}
+QLabel#label_show_2{border-image:url(UIProgram/ui_imgs/11.png);}

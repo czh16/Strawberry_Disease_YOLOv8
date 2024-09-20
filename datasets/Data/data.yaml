@@ -1,0 +1,6 @@
+train: D:\Project\StrawberryDiseaseSeg\StrawberryDiseaseSeg\datasets\Data\train
+val: D:\Project\StrawberryDiseaseSeg\StrawberryDiseaseSeg\datasets\Data\val
+test: D:\Project\StrawberryDiseaseSeg\StrawberryDiseaseSeg\datasets\Data\test
+
+nc: 7
+names: ["Angular Leafspot", "Anthracnose Fruit Rot", 'Blossom Blight', 'Gray Mold', 'Leaf Spot', 'Powdery Mildew Fruit', 'Powdery Mildew Leaf']
